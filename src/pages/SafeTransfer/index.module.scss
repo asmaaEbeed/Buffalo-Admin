@@ -1,0 +1,33 @@
+@import "../../assets/scss/icons.scss";
+
+// Light Theme
+@import "../../assets/scss/bootstrap.scss";
+@import "../../assets/scss/app.scss";
+
+.dropzone_area {
+    margin-top: 0.5rem !important;
+    min-height: 123px !important;
+  
+    h4 {
+      font-size: 1rem;
+    }
+  }
+  
+.dz_message_area {
+    padding: 0.3rem !important;
+};
+.inputview {
+  padding: 0.47rem 1.75rem 0.47rem 0.75rem;
+  font-size: 0.8125rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border: 1px solid $input-border-color !important;
+    border-radius: 0.25rem;
+    height: 36px;
+}
+.invalid_message {
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 80%;
+  color: #f46a6a;
+}
